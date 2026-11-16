@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280">
+  <defs>
+    <marker id="v1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L10,3 z" fill="#1971c2"/></marker>
+    <marker id="v2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L10,3 z" fill="#e03131"/></marker>
+    <marker id="vn" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L10,3 z" fill="#2f9e44"/></marker>
+  </defs>
+  <rect width="100%" height="100%" rx="18" fill="#fbfcff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="26" font-family="Arial" font-weight="700" fill="#24324a">Superposition: Add Forces/Fields as Vectors</text>
+  <circle cx="140" cy="150" r="26" fill="#ff8787" stroke="#c92a2a"/><text x="140" y="157" text-anchor="middle" font-size="18" fill="#fff">q₁</text>
+  <circle cx="380" cy="150" r="30" fill="#dee2e6" stroke="#495057"/><text x="380" y="157" text-anchor="middle" font-size="16" fill="#24324a">test</text>
+  <circle cx="580" cy="80" r="26" fill="#74c0fc" stroke="#1864ab"/><text x="580" y="87" text-anchor="middle" font-size="18" fill="#fff">q₃</text>
+  <circle cx="580" cy="220" r="26" fill="#ff8787" stroke="#c92a2a"/><text x="580" y="227" text-anchor="middle" font-size="18" fill="#fff">q₂</text>
+
+  <line x1="350" y1="150" x2="240" y2="150" stroke="#1971c2" stroke-width="5" marker-end="url(#v1)"/>
+  <text x="285" y="132" text-anchor="middle" font-size="16" fill="#1971c2" font-family="Arial">F₃₁ or E₁</text>
+  <line x1="410" y1="150" x2="500" y2="185" stroke="#e03131" stroke-width="5" marker-end="url(#v2)"/>
+  <text x="485" y="210" text-anchor="middle" font-size="16" fill="#e03131" font-family="Arial">F₂₁ or E₂</text>
+  <line x1="380" y1="150" x2="300" y2="185" stroke="#2f9e44" stroke-width="6" marker-end="url(#vn)"/>
+  <text x="300" y="215" text-anchor="middle" font-size="18" font-weight="700" fill="#2f9e44" font-family="Arial">Net = vector sum</text>
+
+  <text x="380" y="255" text-anchor="middle" font-size="16" font-family="Arial" fill="#444">Direction matters: draw arrows, break into components if needed, then add.</text>
+</svg>

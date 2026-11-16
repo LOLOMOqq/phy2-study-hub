@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
+  <rect width="100%" height="100%" rx="18" fill="#fbfcff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="26" font-family="Arial" font-weight="700" fill="#24324a">Charging Methods: Friction, Conduction, Induction</text>
+  <g transform="translate(20,55)">
+    <rect width="270" height="220" rx="14" fill="#fff0f6" stroke="#faa2c1"/>
+    <text x="135" y="28" text-anchor="middle" font-size="20" font-weight="700" font-family="Arial" fill="#c2255c">Friction (rub)</text>
+    <rect x="35" y="70" width="70" height="90" rx="10" fill="#dee2e6"/>
+    <rect x="165" y="70" width="70" height="90" rx="10" fill="#e9ecef"/>
+    <text x="70" y="122" text-anchor="middle" font-size="22" font-family="Arial">rod</text>
+    <text x="200" y="122" text-anchor="middle" font-size="22" font-family="Arial">silk</text>
+    <circle cx="90" cy="85" r="8" fill="#74c0fc"/><text x="90" y="89" text-anchor="middle" font-size="10" fill="#fff">e⁻</text>
+    <path d="M100 88 C130 88,140 88,170 88" stroke="#1c7ed6" stroke-width="3" fill="none" marker-end="url(#m)"/>
+    <text x="135" y="185" text-anchor="middle" font-size="14" font-family="Arial" fill="#444">Electrons transfer by rubbing</text>
+  </g>
+  <g transform="translate(315,55)">
+    <rect width="270" height="220" rx="14" fill="#e7f5ff" stroke="#74c0fc"/>
+    <text x="135" y="28" text-anchor="middle" font-size="20" font-weight="700" font-family="Arial" fill="#1864ab">Conduction (contact)</text>
+    <circle cx="85" cy="115" r="38" fill="#ffd43b" stroke="#fab005"/><text x="85" y="121" text-anchor="middle" font-size="18" font-family="Arial">− −</text>
+    <rect x="150" y="85" width="80" height="60" rx="10" fill="#dee2e6"/>
+    <text x="190" y="121" text-anchor="middle" font-size="14" font-family="Arial">neutral</text>
+    <line x1="123" y1="115" x2="150" y2="115" stroke="#333" stroke-width="4"/>
+    <path d="M120 105 h20" stroke="#1c7ed6" stroke-width="3"/><path d="M120 125 h20" stroke="#1c7ed6" stroke-width="3"/>
+    <text x="135" y="185" text-anchor="middle" font-size="14" font-family="Arial" fill="#444">Touch allows charge to flow</text>
+  </g>
+  <g transform="translate(610,55)">
+    <rect width="270" height="220" rx="14" fill="#f3f0ff" stroke="#b197fc"/>
+    <text x="135" y="28" text-anchor="middle" font-size="20" font-weight="700" font-family="Arial" fill="#5f3dc4">Induction (no contact)</text>
+    <rect x="35" y="80" width="50" height="80" rx="8" fill="#ffd43b" stroke="#fab005"/>
+    <text x="60" y="125" text-anchor="middle" font-size="20" font-family="Arial">−</text>
+    <rect x="120" y="70" width="110" height="100" rx="12" fill="#dee2e6" stroke="#adb5bd"/>
+    <text x="150" y="125" text-anchor="middle" font-size="22" font-family="Arial" fill="#d9480f">+</text>
+    <text x="200" y="125" text-anchor="middle" font-size="22" font-family="Arial" fill="#1864ab">−</text>
+    <text x="175" y="155" text-anchor="middle" font-size="12" font-family="Arial" fill="#444">charges separate</text>
+    <text x="135" y="198" text-anchor="middle" font-size="14" font-family="Arial" fill="#444">Nearby charge rearranges charges</text>
+  </g>
+  <defs><marker id="m" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#1c7ed6"/></marker></defs>
+</svg>

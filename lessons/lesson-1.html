@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson 1: Electric Charge, Forces & Fields - PHY2 Study Hub</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script>
+    window.MathJax = { tex: { inlineMath: [['\\(','\\)'], ['$', '$']], displayMath: [['\\[','\\]']] }, svg: { fontCache: 'global' } };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body class="theme-electric">
+  <header>
+    <div class="nav">
+      <a class="brand" href="../index.html">⚡ PHY2 Study Hub</a>
+      <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="lesson-1.html" class="active">Lesson 1</a>
+        <a href="lesson-template.html">Template</a>
+        <label class="theme-switcher">Theme
+          <select id="theme-select" aria-label="Choose background theme">
+            <option value="theme-electric">Electric</option>
+            <option value="theme-sunset">Sunset</option>
+            <option value="theme-forest">Forest</option>
+            <option value="theme-midnight">Midnight</option>
+            <option value="theme-paper">Paper</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Lesson 1: Electric Charge, Forces &amp; Fields</h1>
+    <p class="subtitle">Made simple: learn the idea in plain words, then use the formulas step by step.</p>
+
+    <div class="hero hero-themed">
+      <p class="lesson-meta"><strong>Source:</strong> PHY2- D2 2.pdf • <strong>Tip:</strong> Read the “In plain words” parts first, then open details only if you need more.</p>
+      <div class="key-grid">
+        <div class="key-item"><strong>What is charge?</strong><span class="small">A property of matter: positive (+) or negative (−). Opposites pull together, same signs push apart.</span></div>
+        <div class="key-item"><strong>What is a force?</strong><span class="small">The push or pull between charges. Closer or bigger charges = stronger push/pull.</span></div>
+        <div class="key-item"><strong>What is a field?</strong><span class="small">The “invisible influence” around a charge that tells other charges how they would be pushed/pulled.</span></div>
+        <div class="key-item"><strong>How to solve problems</strong><span class="small">1) Convert units  2) Draw arrows  3) Use formula  4) Check direction</span></div>
+      </div>
+    </div>
+
+    <h2>Quick Review (plain words)</h2>
+    <div class="card compact">
+      <ul>
+        <li><strong>Charge basics:</strong> Protons are +, electrons are −, neutrons have no charge. <strong>Same signs push apart</strong>, <strong>different signs pull together</strong>.</li>
+        <li><strong>How things get charged:</strong> Usually <strong>electrons move</strong>. If an object gains electrons it becomes negative; if it loses electrons it becomes positive.</li>
+        <li><strong>Materials:</strong> <strong>Conductors</strong> (like metals) let electrons move easily, so charge spreads out. <strong>Insulators</strong> (like rubber/glass) hold electrons tightly, so charge stays where it is.</li>
+        <li><strong>Charge comes in tiny packets:</strong> \(q = Ne\). You can think of \(e\) as the charge of 1 electron (very, very small).</li>
+        <li><strong>Coulomb’s law (how strong?):</strong> \(F = k\frac{|q_1q_2|}{r^2}\). <em>More charge = stronger.</em> <em>More distance = weaker (a lot weaker, because of \(r^2\)).</em></li>
+        <li><strong>Electric field (the influence):</strong> \(E = F/q_0\). It tells you the push/pull a +1 C test charge would feel at a point. Field points <strong>away from +</strong> and <strong>toward −</strong>.</li>
+        <li><strong>More than one charge:</strong> Don’t just add numbers blindly. Find the direction of each push/pull, then combine them (add/subtract on a line, or use components in 2D).</li>
+      </ul>
+    </div>
+
+    <h2>Key Formulas</h2>
+    <div class="card">
+      <div class="table-wrap">
+      <table>
+        <tr><th>Quantity</th><th>Formula</th><th>What it means / when to use</th></tr>
+        <tr><td>Charge quantization</td><td>\(q = Ne\)</td><td>Find total charge from number of electrons, or number of electrons from charge. \(e=1.60\times10^{-19}\,\text{C}\)</td></tr>
+        <tr><td>Coulomb’s law</td><td>\(F = k\frac{|q_1q_2|}{r^2}\), where \(k=\frac{1}{4\pi\varepsilon_0}\)</td><td>Force between two point charges. \(k=8.99\times10^9\,\text{N·m}^2/\text{C}^2\), \(\varepsilon_0\) = permittivity of free space. Use magnitude formula, then decide direction from signs.</td></tr>
+        <tr><td>Electric field (definition)</td><td>\(E = \frac{F}{q_0}\)</td><td>How strong the field is at a point: force felt by a small positive test charge per coulomb.</td></tr>
+        <tr><td>Force from field</td><td>\(F = q_0E\)</td><td>Once you know the field, multiply by the charge placed in it. Negative \(q_0\) means force opposite \(\vec{E}\).</td></tr>
+        <tr><td>Field of a point charge</td><td>\(E = k\frac{|q|}{r^2}\)</td><td>Field created by one source charge at distance \(r\). Direction depends on source sign.</td></tr>
+        <tr><td>Superposition</td><td>\(\vec{F}_{net}=\sum\vec{F}_i\), \(\vec{E}_{net}=\sum\vec{E}_i\)</td><td>When multiple charges are present, add effects as vectors (break into components if not on one line).</td></tr>
+      </table>
+      </div>
+      <p class="small"><strong>Conversions (do these first):</strong> \(1\,\mu\text{C}=10^{-6}\,\text{C}\), \(1\,\text{nC}=10^{-9}\,\text{C}\), \(1\,\text{cm}=10^{-2}\,\text{m}\), \(1\,\text{km}=10^3\,\text{m}\). <strong>Constants:</strong> \(k=8.99\times10^9\,\text{N·m}^2/\text{C}^2\), \(\varepsilon_0=8.85\times10^{-12}\,\text{C}^2/(\text{N·m}^2)\).</p>
+    </div>
+
+    <details open>
+      <summary>Concepts Explained Simply (open for more help)</summary>
+      <div class="card compact">
+        <h3>A. Atoms &amp; electric charge — what’s actually happening?</h3>
+        <p><strong>In plain words:</strong> Everything is made of atoms. Atoms have + parts (protons), − parts (electrons), and neutral parts (neutrons). An object becomes charged when it has more electrons than protons (negative) or fewer electrons than protons (positive).</p>
+        <ul>
+          <li><strong>Important:</strong> in everyday charging, <strong>electrons move</strong>. Protons usually stay in the nucleus.</li>
+          <li><strong>Neutral does not mean “no charges”:</strong> it means the + and − are balanced.</li>
+          <li><strong>Example idea:</strong> if you gain 3 electrons, you become more negative by 3 electron-charges.</li>
+        </ul>
+        <figure class="figure">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Helium_atom_QM.svg" alt="Helium atom diagram showing nucleus and electron cloud" loading="lazy" width="320" />
+          <figcaption>Web-sourced illustration: helium atom. Source: <a href="https://commons.wikimedia.org/wiki/File:Helium_atom_QM.svg" target="_blank" rel="noopener">Wikimedia Commons (Yzmo)</a>, CC BY-SA 3.0 / GFDL.</figcaption>
+        </figure>
+
+        <h3>B. Conductors vs insulators — why charge behaves differently</h3>
+        <p><strong>In plain words:</strong> The difference is how easily electrons can move.</p>
+        <ul>
+          <li><strong>Conductor (copper, aluminum, silver):</strong> electrons can move around → extra charge spreads out, especially on the surface.</li>
+          <li><strong>Insulator (glass, rubber, wood):</strong> electrons cannot move freely → extra charge mostly stays where you put it.</li>
+          <li><strong>Easy comparison:</strong> conductor = open hallway, insulator = sticky floor.</li>
+        </ul>
+
+        <h3>C. Charging methods — 3 ways electrons get redistributed</h3>
+        <p><strong>In plain words:</strong> Charging means electrons moved or shifted.</p>
+        <ul>
+          <li><strong>Friction (rubbing):</strong> rub two things → electrons transfer. <em>Example:</em> glass + silk: electrons go to silk (silk becomes −, glass becomes +).</li>
+          <li><strong>Conduction (contact/touch):</strong> a charged object touches another object → electrons can move because they are in contact.</li>
+          <li><strong>Induction (no touch):</strong> bring a charged object close (but not touching) → electrons inside the nearby object rearrange (one side becomes +, other side becomes −).</li>
+          <li><strong>Quick check:</strong> friction/conduction involve transfer; induction starts with rearrangement caused by a nearby charge.</li>
+        </ul>
+        <figure class="figure">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Electrostatic_induction.svg" alt="Diagram of electrostatic induction showing charge separation in conductors near a positive charge" loading="lazy" width="520" />
+          <figcaption>Web-sourced illustration: electrostatic induction. Source: <a href="https://commons.wikimedia.org/wiki/File:Electrostatic_induction.svg" target="_blank" rel="noopener">Wikimedia Commons (Chetvorno/Geek3)</a>, Public Domain.</figcaption>
+        </figure>
+
+        <h3>D. Conservation and quantization — the “accounting rules”</h3>
+        <ul>
+          <li><strong>Conservation of charge:</strong> charge is not created or destroyed, it just moves. If one object becomes −, another becomes + by the same amount.</li>
+          <li><strong>Quantization:</strong> \(q = Ne\). Charge comes in electron-sized steps, so \(N\) is how many electrons were gained/lost.</li>
+        </ul>
+
+        <h3>E. Coulomb’s law — how strong is the push/pull?</h3>
+        <p><strong>In plain words:</strong> Coulomb’s law tells you the strength of the electric force between two charges.</p>
+        <ul>
+          <li><strong>Formula:</strong> \(F = k\frac{|q_1q_2|}{r^2}\)</li>
+          <li><strong>What makes it stronger:</strong> bigger charges → stronger force.</li>
+          <li><strong>What makes it weaker:</strong> bigger distance → weaker force, and it drops fast (\(r^2\) means 2× farther = 4× weaker).</li>
+          <li><strong>Direction:</strong> same signs repel, opposite signs attract.</li>
+          <li><strong>Easy method:</strong> use the formula to get the number (magnitude), then decide left/right or toward/away using the signs.</li>
+        </ul>
+        <figure class="figure">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/CoulombsLaw.svg" alt="Diagram of Coulomb's law showing attraction and repulsion between point charges" loading="lazy" width="480" />
+          <figcaption>Web-sourced illustration: Coulomb’s law. Source: <a href="https://commons.wikimedia.org/wiki/File:CoulombsLaw.svg" target="_blank" rel="noopener">Wikimedia Commons (User:Dna-Dennis)</a>, CC BY 3.0.</figcaption>
+        </figure>
+
+        <h3>F. Electric field — the “influence” a charge creates in space</h3>
+        <p><strong>In plain words:</strong> A charge affects the space around it. That effect is called the electric field. If you put another charge there, the field tells it which way and how strongly to move.</p>
+        <ul>
+          <li><strong>Definition:</strong> \(E = F/q_0\) means “force per 1 coulomb of (positive) test charge.”</li>
+          <li><strong>From a point charge:</strong> \(E = k\frac{|q|}{r^2}\) (same distance rule as Coulomb’s law).</li>
+          <li><strong>Direction rule (easy):</strong> field goes <strong>away from +</strong> and <strong>toward −</strong>.</li>
+          <li><strong>If a negative charge is placed in the field:</strong> it feels force in the <strong>opposite</strong> direction of \(\vec{E}\).</li>
+          <li><strong>Multiple sources:</strong> find each field’s direction at the point, then add them as vectors.</li>
+        </ul>
+        <figure class="figure">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/VFPt_charges_plus_minus.svg" alt="Electric field lines around a positive and a negative point charge" loading="lazy" width="520" />
+          <figcaption>Web-sourced illustration: electric field lines (positive/negative pair). Source: <a href="https://commons.wikimedia.org/wiki/File:VFPt_charges_plus_minus.svg" target="_blank" rel="noopener">Wikimedia Commons (Geek3)</a>, CC BY-SA 3.0 / GFDL.</figcaption>
+        </figure>
+
+        <h3>G. Gauss’s law — a shortcut for special shapes</h3>
+        <p><strong>In plain words:</strong> Gauss’s law helps you find the electric field when the charge is spread out in a very neat/symmetrical way (sphere, long wire, large plate). Instead of adding up many tiny forces, you use the symmetry to get the answer faster.</p>
+        <ul>
+          <li><strong>Main equation:</strong> \(\Phi_E = \oint \vec{E}\cdot d\vec{A} = \frac{q_{\text{enc}}}{\varepsilon_0}\) (flux through a closed surface = enclosed charge / \(\varepsilon_0\)).</li>
+          <li><strong>Simple idea of flux:</strong> how much electric field “passes through” a surface.</li>
+        </ul>
+        <h4>Results you need to know (by shape)</h4>
+        <ul>
+          <li><strong>Uniformly charged sphere:</strong>
+            <ul>
+              <li>Outside the sphere: acts like a point charge at the center → \(E = k\frac{Q}{r^2}\) (gets weaker with distance).</li>
+              <li>Inside a solid uniformly charged sphere: field grows from 0 at the center to maximum at the surface (\(E \propto r\)).</li>
+              <li>Inside a charged conductor (in electrostatic equilibrium): \(E=0\).</li>
+            </ul>
+          </li>
+          <li><strong>Long uniformly charged wire/line:</strong> field points straight out from (or in toward) the wire and weakens more slowly: \(E = \frac{\lambda}{2\pi\varepsilon_0 r} = \frac{2k\lambda}{r}\).</li>
+          <li><strong>Large uniformly charged plate/sheet:</strong> field is nearly the same size near the sheet and points perpendicular to it: \(E = \frac{\sigma}{2\varepsilon_0}\).</li>
+        </ul>
+        <p class="small"><strong>Memory tip:</strong> sphere → like point charge (\(1/r^2\)), wire → \(1/r\), large sheet → almost constant.</p>
+      </div>
+    </details>
+
+    <details open>
+      <summary>How to Solve Problems (easy step-by-step)</summary>
+      <div class="card compact">
+        <ol>
+          <li><strong>Write what you know:</strong> list charges, distances, and what you need to find.</li>
+          <li><strong>Convert first:</strong> change \(\mu\text{C}\to\text{C}\), \(\text{cm}\to\text{m}\), etc. (Most mistakes happen here.)</li>
+          <li><strong>Draw and mark arrows:</strong> decide which way each force/field points <em>before</em> calculating.</li>
+          <li><strong>Calculate the number:</strong> plug into the formula to get magnitude (size).</li>
+          <li><strong>Combine directions:</strong> on a straight line, call one side + and other −. In 2D, split into x/y parts.</li>
+          <li><strong>Final check:</strong> Is the answer’s direction reasonable? Did you square \(r\)? Are units correct?</li>
+        </ol>
+        <p class="small"><strong>Quick rule for directions:</strong> Force: same repel, opposite attract. Field: away from +, toward −. A negative charge feels force opposite the field.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Worked Examples (with reasoning)</summary>
+      <div class="card compact">
+        <h3>Example 1: Electrons in 1.00 C</h3>
+        <p><strong>Idea:</strong> each electron carries charge \(e\), so total charge is \(q=Ne\).<br>
+        <strong>Compute:</strong> \(N = q/e = 1.00/(1.60\times10^{-19}) = 6.25\times10^{18}\) electrons.<br>
+        <strong>Meaning:</strong> one coulomb is a huge number of electrons because \(e\) is tiny.</p>
+
+        <h3>Example 2: Excess electrons for \(4.8\times10^{-19}\,\text{C}\)</h3>
+        <p><strong>Compute:</strong> \(N = (4.8\times10^{-19})/(1.6\times10^{-19}) = 3\).<br>
+        <strong>Meaning:</strong> net charge corresponds to 3 extra electron charges.</p>
+
+        <h3>Example 3: Coulomb force (attraction)</h3>
+        <p><strong>Given:</strong> \(q_1=+4\times10^{-6}\,\text{C}\), \(q_2=-2\times10^{-6}\,\text{C}\), \(r=0.2\,\text{m}\).<br>
+        <strong>Magnitude:</strong> \(F = k\frac{|q_1q_2|}{r^2} = (8.99\times10^9)\frac{(4\times10^{-6})(2\times10^{-6})}{(0.2)^2} \approx 1.8\,\text{N}\).<br>
+        <strong>Direction:</strong> opposite signs → attractive (each pulls toward the other).</p>
+
+        <h3>Example 4: Force in a known electric field</h3>
+        <p><strong>Given:</strong> \(E=2.0\,\text{N/C}\). Use \(F=q_0E\).<br>
+        (a) \(q_0=+18.0\times10^{-8}\,\text{C} \Rightarrow F=3.6\times10^{-7}\,\text{N}\) in the <strong>same</strong> direction as \(\vec{E}\).<br>
+        (b) \(q_0=-24.0\times10^{-8}\,\text{C} \Rightarrow F=4.8\times10^{-7}\,\text{N}\) in the <strong>opposite</strong> direction to \(\vec{E}\).<br>
+        <strong>Why:</strong> field direction is defined by force on a positive test charge.</p>
+
+        <h3>Example 5: Electric field of a point charge</h3>
+        <p><strong>Given:</strong> \(Q=5.00\,\text{mC}=5.00\times10^{-3}\,\text{C}\), \(r=2.00\,\text{m}\).<br>
+        <strong>Compute:</strong> \(E = k\frac{|Q|}{r^2} = (8.99\times10^9)\frac{5.00\times10^{-3}}{(2.00)^2} = 1.12\times10^7\,\text{N/C}\).<br>
+        <strong>Direction:</strong> away from \(Q\) if \(Q\) is positive, toward \(Q\) if negative.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Mastery Practice (with hints)</summary>
+      <div class="card compact">
+        <h3>Level 1 — Basics</h3>
+        <ol>
+          <li>How many electrons correspond to \(3.20\times10^{-19}\,\text{C}\)? <span class="small">(Use \(N=q/e\))</span></li>
+          <li>\(5.0\times10^{12}\) electrons removed from a neutral object: net charge? <span class="small">(Removed electrons → positive object)</span></li>
+          <li>Charge spreads quickly over the surface: conductor or insulator?</li>
+          <li>Electric field due to a positive source charge points toward or away?</li>
+        </ol>
+        <h3>Level 2 — Apply formulas</h3>
+        <ol start="5">
+          <li>\(+3.0\,\mu\text{C}\) and \(+6.0\,\mu\text{C}\), \(0.30\,\text{m}\) apart: magnitude and nature of force?</li>
+          <li>If distance triples, force changes by what factor? <span class="small">(Think \(1/r^2\))</span></li>
+          <li>Electron in \(E=250\,\text{N/C}\) to the right: force magnitude and direction?</li>
+          <li>Electric field \(4.0\,\text{cm}\) from \(+20\,\text{nC}\)? <span class="small">(Convert cm → m)</span></li>
+        </ol>
+        <h3>Level 3 — Vectors/superposition</h3>
+        <ol start="9">
+          <li>Line: \(q_1=+2.0\,\mu\text{C}\) at \(x=0\), \(q_2=-3.0\,\mu\text{C}\) at \(0.20\,\text{m}\), \(q_3=+4.0\,\mu\text{C}\) at \(0.50\,\text{m}\). Net force on \(q_2\)? <span class="small">(Find pull from left and right, then subtract by direction)</span></li>
+          <li>Same setup: net electric field at \(q_2\) due to \(q_1,q_3\)? <span class="small">(\(\vec{E}=\vec{F}/q_2\) or add fields directly)</span></li>
+          <li>Equilateral triangle, side \(15.0\,\text{cm}\), \(Q=+7.00\,\mu\text{C}\) each: net force on top charge? <span class="small">(Horizontal components cancel, verticals add)</span></li>
+        </ol>
+        <h3>Final Boss</h3>
+        <ol start="12">
+          <li>\(q_0=+2.0\times10^{-9}\,\text{C}\) is \(0.10\,\text{m}\) right of \(Q_1=+5.0\,\mu\text{C}\) and \(0.20\,\text{m}\) left of \(Q_2=-5.0\,\mu\text{C}\). Find (a) \(E\) from \(Q_1\), (b) \(E\) from \(Q_2\), (c) \(E_{net}\), (d) \(F_{net}\). <span class="small">(Check direction of each field at \(q_0\) first)</span></li>
+        </ol>
+      </div>
+    </details>
+
+    <details>
+      <summary>Answer Key (with brief explanations)</summary>
+      <div class="card answer">
+        <ol>
+          <li>\(N=q/e=2\) electrons.</li>
+          <li>Removed electrons → \(q=+Ne=+8.0\times10^{-7}\,\text{C}\).</li>
+          <li><strong>Conductor</strong> (mobile charges spread over surface).</li>
+          <li><strong>Away</strong> from a positive source charge.</li>
+          <li>\(F=k\frac{(3.0e-6)(6.0e-6)}{0.30^2}=1.80\,\text{N}\), <strong>repulsive</strong> (like charges).</li>
+          <li>\(1/3^2 = 1/9\) of original force.</li>
+          <li>\(F=|q|E=4.0\times10^{-17}\,\text{N}\), direction <strong>left</strong> (electron opposite field).</li>
+          <li>Convert \(4.0\,\text{cm}=0.040\,\text{m}\): \(E=k\frac{20\times10^{-9}}{0.040^2}=1.12\times10^5\,\text{N/C}\).</li>
+          <li>On \(q_2\): attraction to \(q_1\) gives \(1.35\,\text{N}\) left; attraction to \(q_3\) gives \(1.20\,\text{N}\) right → net \(0.15\,\text{N}\) <strong>left</strong>.</li>
+          <li>\(E_{net}=F_{net}/|q_2|=5.0\times10^4\,\text{N/C}\) <strong>right</strong> (opposite net force on negative charge; or add \(\vec{E}_1,\vec{E}_3\) directly).</li>
+          <li>One-corner force \(F_1=19.6\,\text{N}\); horizontal parts cancel, verticals add: \(2F_1\cos30^\circ=33.9\,\text{N}\) upward.</li>
+          <li>At \(q_0\): \(E_1\) from +\(Q_1\) is right (\(4.495\times10^6\,\text{N/C}\)); \(E_2\) from −\(Q_2\) is also right (\(1.124\times10^6\,\text{N/C}\)); so \(E_{net}=5.62\times10^6\,\text{N/C}\) right and \(F_{net}=q_0E_{net}=1.12\times10^{-2}\,\text{N}\) right.</li>
+        </ol>
+      </div>
+    </details>
+
+    <h2>Common Mistakes (and how to avoid them)</h2>
+    <div class="card warn">
+      <ul>
+        <li><strong>Skipping unit conversion:</strong> always convert to C and m before using formulas.</li>
+        <li><strong>Forgetting \(r^2\):</strong> doubling distance cuts force/field to 1/4, not 1/2.</li>
+        <li><strong>Ignoring direction:</strong> draw arrows and use vector sums; magnitudes alone aren’t enough for superposition.</li>
+        <li><strong>Field direction confusion:</strong> \(\vec{E}\) shows force direction on a <em>positive</em> test charge; negative charges move opposite \(\vec{E}\).</li>
+        <li><strong>Mixing source and test charge roles:</strong> source creates the field; test charge experiences it.</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p><a href="../index.html">← Back to Home</a> • <span class="small">Web-sourced illustrations (Wikimedia Commons) are included in Concept Details with attribution. Math renders with MathJax (internet recommended).</span></p>
+    </footer>
+  </main>
+  <script src="../assets/theme.js"></script>
+</body>
+</html>

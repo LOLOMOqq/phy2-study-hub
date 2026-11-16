@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300">
+  <defs>
+    <marker id="f" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5f3dc4"/></marker>
+  </defs>
+  <rect width="100%" height="100%" rx="18" fill="#fbfcff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="26" font-family="Arial" font-weight="700" fill="#24324a">Electric Field Direction</text>
+  <g transform="translate(40,30)">
+    <text x="150" y="40" text-anchor="middle" font-size="20" font-family="Arial" fill="#24324a">Positive source (+q)</text>
+    <circle cx="150" cy="150" r="28" fill="#ff8787" stroke="#c92a2a"/>
+    <text x="150" y="158" text-anchor="middle" font-size="24" fill="#fff" font-family="Arial">+</text>
+    <g stroke="#5f3dc4" stroke-width="3" marker-end="url(#f)" fill="none">
+      <line x1="178" y1="150" x2="250" y2="150"/><line x1="122" y1="150" x2="50" y2="150"/>
+      <line x1="150" y1="122" x2="150" y2="50"/><line x1="150" y1="178" x2="150" y2="250"/>
+      <line x1="170" y1="130" x2="220" y2="80"/><line x1="130" y1="130" x2="80" y2="80"/>
+      <line x1="170" y1="170" x2="220" y2="220"/><line x1="130" y1="170" x2="80" y2="220"/>
+    </g>
+    <text x="150" y="275" text-anchor="middle" font-size="15" font-family="Arial" fill="#444">Field points AWAY from +</text>
+  </g>
+  <g transform="translate(400,30)">
+    <text x="150" y="40" text-anchor="middle" font-size="20" font-family="Arial" fill="#24324a">Negative source (−q)</text>
+    <circle cx="150" cy="150" r="28" fill="#74c0fc" stroke="#1864ab"/>
+    <text x="150" y="158" text-anchor="middle" font-size="24" fill="#fff" font-family="Arial">−</text>
+    <g stroke="#5f3dc4" stroke-width="3" marker-end="url(#f)" fill="none">
+      <line x1="250" y1="150" x2="182" y2="150"/><line x1="50" y1="150" x2="118" y2="150"/>
+      <line x1="150" y1="50" x2="150" y2="118"/><line x1="150" y1="250" x2="150" y2="182"/>
+      <line x1="220" y1="80" x2="174" y2="126"/><line x1="80" y1="80" x2="126" y2="126"/>
+      <line x1="220" y1="220" x2="174" y2="174"/><line x1="80" y1="220" x2="126" y2="174"/>
+    </g>
+    <text x="150" y="275" text-anchor="middle" font-size="15" font-family="Arial" fill="#444">Field points TOWARD −</text>
+  </g>
+</svg>

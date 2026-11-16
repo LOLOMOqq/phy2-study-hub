@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PHY2 Study Hub</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="theme-home">
+  <header>
+    <div class="nav">
+      <a class="brand" href="index.html">⚡ PHY2 Study Hub</a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="lessons/lesson-1.html">Lesson 1</a>
+        <a href="lessons/lesson-template.html">Template</a>
+        <label class="theme-switcher">Theme
+          <select id="theme-select" aria-label="Choose background theme">
+            <option value="theme-electric">Electric</option>
+            <option value="theme-sunset">Sunset</option>
+            <option value="theme-forest">Forest</option>
+            <option value="theme-midnight">Midnight</option>
+            <option value="theme-paper">Paper</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>PHY2 Study Hub</h1>
+    <p class="subtitle">A simple website you can update every lesson.</p>
+
+    <div class="hero hero-themed">
+      <p><strong>Goal:</strong> keep each lesson clear, focused, and easy to review. Each lesson page uses a themed background and collapsible sections so the content feels less overwhelming.</p>
+      <p>
+        <span class="pill">Quick summaries</span>
+        <span class="pill">Key formulas</span>
+        <span class="pill">Practice + solutions</span>
+        <span class="pill">Editable HTML files</span>
+      </p>
+    </div>
+
+    <h2>Lessons</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Lesson 1: Electric Charge, Forces &amp; Fields</h3>
+        <p class="lesson-meta">Status: Ready • Theme: Electric field</p>
+        <p>Condensed reviewer with core ideas, formulas, worked examples, and mastery practice.</p>
+        <a class="btn" href="lessons/lesson-1.html">Open Lesson 1</a>
+      </div>
+      <div class="card">
+        <h3>Next Lesson</h3>
+        <p class="lesson-meta">Status: Add when ready</p>
+        <p>Duplicate the template, rename it (e.g. <span class="mono">lesson-2.html</span>), then add it here.</p>
+        <a class="btn secondary" href="lessons/lesson-template.html">Open Template</a>
+      </div>
+      <div class="card">
+        <h3>Quick Study Tools</h3>
+        <ul>
+          <li><a href="https://phet.colorado.edu/en/simulations/coulombs-law" target="_blank" rel="noopener">PhET: Coulomb’s Law</a></li>
+          <li><a href="https://phet.colorado.edu/en/simulations/charges-and-fields" target="_blank" rel="noopener">PhET: Charges and Fields</a></li>
+          <li><a href="https://phet.colorado.edu/en/simulations/balloons-and-static-electricity" target="_blank" rel="noopener">PhET: Balloons and Static Electricity</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>How to update every lesson</h2>
+    <div class="card note">
+      <ol>
+        <li><strong>Copy:</strong> duplicate <span class="mono">lessons/lesson-template.html</span> and rename it.</li>
+        <li><strong>Edit:</strong> update the title, theme class, summary, formulas, examples, and practice.</li>
+        <li><strong>Link:</strong> add the new lesson card/link in <span class="mono">index.html</span> (and top nav if you want).</li>
+        <li><strong>Save &amp; refresh:</strong> open your browser and refresh the page.</li>
+      </ol>
+      <p class="small">Tip: change the lesson background by setting the body class, e.g. <span class="mono">&lt;body class="theme-electric"&gt;</span>. You can create new themes in <span class="mono">assets/style.css</span>.</p>
+    </div>
+
+    <footer>
+      <p>Edit the HTML files, save, and refresh. No build tools needed.</p>
+      <p><strong>Creator:</strong> Calzita, John Wendell L.</p>
+    </footer>
+  </main>
+  <script src="assets/theme.js"></script>
+</body>
+</html>
